@@ -16,40 +16,40 @@ public class Main {
         System.out.println("Значение переменной d с типом double равно "+ d +".\n");
 
 
-        //Task 2 "Инициализируем, да не выинициализируем"
+        //Task 2 "Инициализируем-2"
         float floatValue = 27.12f;
         long longValue = 987678965549L;
-        float floatValue2 = 2.786f;
-        int intValue = 569;
+        double doubleValue = 2.786;
+        short shortValue = 569;
         short shortValue2 = 159;
         int intValue2 = 27897;
         byte byteValue = 67;
 
 
-        //Task 3 "Сколько листов достанется каждому ученику, или сколько нынче стоит собрать ребенка в школу"
-        int countOfStudentsLudPavl = 23;
-        int countOfStudentsAnnSerg = 27;
-        int countOfStudentsEkatAndr = 30;
+        //Task 3 "Сколько листов достанется каждому ученику"
+        int countOfStudents1 = 23;
+        int countOfStudents2 = 27;
+        int countOfStudents3 = 30;
         int totalSheetsOfPaper = 480;
-        int sheetsOfPaperOnOneStudent = totalSheetsOfPaper / (countOfStudentsLudPavl + countOfStudentsAnnSerg + countOfStudentsEkatAndr);
+        int sheetsOfPaperOnOneStudent = totalSheetsOfPaper / (countOfStudents1 + countOfStudents2 + countOfStudents3);
         System.out.println("На каждого ученика рассчитано " + sheetsOfPaperOnOneStudent + " листов бумаги.\n");
 
 
-        //Task 4 "Производительность машины для изготовления бутылок (молока, естественно, мы же тут спортсмены, смотри далее)"
+        //Task 4 "Производительность машины для изготовления бутылок"
         int machineCapacityPerMinute = 16;
         int machineCapacityPer20Minutes = machineCapacityPerMinute * 20;
         int machineCapacityPerDay = 24 * 60 * machineCapacityPerMinute;
         int machineCapacityPer3Days = machineCapacityPerDay * 3;
-        int daysOfMounth = 30;
-        int machineCapacityPerMounth = machineCapacityPerDay * daysOfMounth;
+        int daysOfMonth = 30;
+        int machineCapacityPerMonth = machineCapacityPerDay * daysOfMonth;
 
         System.out.println("За 20 минут машина произвела " + machineCapacityPer20Minutes + " штук бутылок.");
         System.out.println("За сутки машина произвела " + machineCapacityPerDay + " штук бутылок.");
         System.out.println("За 3 дня машина произвела " + machineCapacityPer3Days + " штук бутылок.");
-        System.out.println("За 1 месяц машина произвела " + machineCapacityPerMounth + " штук бутылок.\n");
+        System.out.println("За 1 месяц машина произвела " + machineCapacityPerMonth + " штук бутылок.\n");
 
 
-        //Task 5 "Количество краски для ремонта школы, или кто не сдал деньги на ремонт"
+        //Task 5 "Количество краски для ремонта школы"
         int totalCans = 120;
         int brownCansPerOneClassRoom = 4;
         int whiteCansPerOneClassRoom = 2;
@@ -60,7 +60,7 @@ public class Main {
                                 " банок белой краски и " + totalBrownColor +" банок коричневой краски.\n");
 
 
-        //Task 6 "Завтрак спортсмена. Сколько вешать в граммах и килограммах"
+        //Task 6 "Завтрак спортсмена"
         float countOfBananas = 5;
         float countOfMilk = 200 / 100;
         float countOfIceCream = 2;
