@@ -96,12 +96,12 @@ public class Main {
         double newSalaryOfEmployeeMaria = (salaryOfEmployeeMaria * percentageIncrease) + salaryOfEmployeeMaria;
         double newSalaryOfEmployeeDenis = (salaryOfEmployeeDenis * percentageIncrease) + salaryOfEmployeeDenis;
         double newSalaryOfEmployeeKristina = (salaryOfEmployeeKristina * percentageIncrease) + salaryOfEmployeeKristina;
-        double differenseSalaryToMaria = newSalaryOfEmployeeMaria - salaryOfEmployeeMaria;
-        double differenseSalaryToDenis = newSalaryOfEmployeeDenis - salaryOfEmployeeDenis;
-        double differenseSalaryToKristina = newSalaryOfEmployeeKristina - salaryOfEmployeeKristina;
+        double differenceSalaryToMaria = newSalaryOfEmployeeMaria - salaryOfEmployeeMaria;
+        double differenceSalaryToDenis = newSalaryOfEmployeeDenis - salaryOfEmployeeDenis;
+        double differenceSalaryToKristina = newSalaryOfEmployeeKristina - salaryOfEmployeeKristina;
 
-        System.out.println("Маша теперь получает " + newSalaryOfEmployeeMaria + " рублей. Годовой доход вырос на " + differenseSalaryToMaria + " рублей.");
-        System.out.println("Денис теперь получает " + newSalaryOfEmployeeDenis + " рублей. Годовой доход вырос на " + differenseSalaryToDenis + " рублей.");
-        System.out.println("Кристина теперь получает " + newSalaryOfEmployeeKristina + " рублей. Годовой доход вырос на " + differenseSalaryToKristina + " рублей.");
+        System.out.println("Маша теперь получает " + newSalaryOfEmployeeMaria + " рублей. Годовой доход вырос на " + differenceSalaryToMaria + " рублей.");
+        System.out.println("Денис теперь получает " + newSalaryOfEmployeeDenis + " рублей. Годовой доход вырос на " + differenceSalaryToDenis + " рублей.");
+        System.out.println("Кристина теперь получает " + newSalaryOfEmployeeKristina + " рублей. Годовой доход вырос на " + differenceSalaryToKristina + " рублей.");
     }
 }
